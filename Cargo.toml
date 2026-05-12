@@ -4,6 +4,8 @@ version = "1.0.0"
 edition = "2021"
 description = "Liquid compute swarm: thermodynamic gossip + WASM cells (blueprint)."
 license = "MIT OR Apache-2.0"
+repository = "https://github.com/utahisnotastate/utahnetes"
+homepage = "https://github.com/utahisnotastate/utahnetes"
 
 [dependencies]
 libp2p = { version = "0.53", default-features = false, features = ["tcp", "noise", "yamux", "gossipsub", "mdns", "macros", "tokio"] }

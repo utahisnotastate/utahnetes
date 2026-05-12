@@ -1,0 +1,15 @@
+[package]
+name = "utahnetes"
+version = "1.0.0"
+edition = "2021"
+description = "Liquid compute swarm: thermodynamic gossip + WASM cells (blueprint)."
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+libp2p = { version = "0.53", default-features = false, features = ["tcp", "noise", "yamux", "gossipsub", "mdns", "macros", "tokio"] }
+wasmtime = "14.0"
+tokio = { version = "1.35", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+log = "0.4"
+clap = { version = "4.4", features = ["derive"] }
+env_logger = "0.11"

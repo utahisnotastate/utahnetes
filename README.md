@@ -1,5 +1,7 @@
 # Utahnetes
 
+**Repository:** [github.com/utahisnotastate/utahnetes](https://github.com/utahisnotastate/utahnetes)
+
 **Utahnetes** is an experimental Rust project that explores a *different mental model* for running software across several computers: instead of one central “boss” telling every machine exactly what to do (the way many cluster systems feel), participating machines share simple **signals** (like “how busy am I?”) and can accept **small programs** shipped as **WebAssembly** when they have spare capacity.
 
 If that sentence already feels like a lot, start here: **[Non-technical guide: what you can actually do](docs/non-technical-guide.md)**. It is written for people who want to be productive, run demos, or collaborate with a technical teammate without becoming a programmer first.

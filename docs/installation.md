@@ -15,7 +15,7 @@ Utahnetes is a standard Rust project. You build the **library** and **binary** t
 ## Clone and build
 
 ```bash
-git clone <YOUR_REPO_URL> utahnetes
+git clone https://github.com/utahisnotastate/utahnetes.git utahnetes
 cd utahnetes
 cargo build --release
 ```
